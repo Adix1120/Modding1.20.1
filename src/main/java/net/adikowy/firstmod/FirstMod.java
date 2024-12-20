@@ -1,7 +1,9 @@
 package net.adikowy.firstmod;
 
 import com.mojang.logging.LogUtils;
+import net.adikowy.firstmod.item.ModCreativeModTabs;
 import net.adikowy.firstmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -27,7 +29,7 @@ public class FirstMod
     public FirstMod(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
-
+        ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
