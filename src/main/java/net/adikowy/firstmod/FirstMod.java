@@ -1,6 +1,7 @@
 package net.adikowy.firstmod;
 
 import com.mojang.logging.LogUtils;
+import net.adikowy.firstmod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -26,6 +27,9 @@ public class FirstMod
     public FirstMod(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
