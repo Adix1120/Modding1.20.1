@@ -1,6 +1,7 @@
 package net.adikowy.firstmod.item;
 
 import net.adikowy.firstmod.FirstMod;
+import net.adikowy.firstmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,6 +24,12 @@ public class ModCreativeModTabs
                     {
                         output.accept(ModItems.Zbigniew.get());
                         output.accept(ModItems.RAW_ZBIGNIEW.get());
+                        output.accept(ModBlocks.Block_Zbigniewa.get());
+                        output.accept(ModBlocks.RAW_Zgieniew_Block.get());
+                        output.accept(ModBlocks.ZBIGNIEW_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_ZBIGNIEW_ORE.get());
+                        output.accept(ModBlocks.NETHER_ZBIGNIEW_ORE.get());
+                        output.accept(ModBlocks.END_STONE_ZBIGNIEW_ORE.get());
                     })
                     .build());
 

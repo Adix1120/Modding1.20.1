@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 18.0,
+  "group": "zbigniew",
+  "ingredient": {
+    "item": "firstmod:raw_zbigniew_block"
+  },
+  "result": "firstmod:zbigniew_block"
+}

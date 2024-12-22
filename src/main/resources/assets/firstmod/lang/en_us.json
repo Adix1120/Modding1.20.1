@@ -1,5 +1,11 @@
 {
   "item.firstmod.zbigniew": "Zbigniew Kluczkowski",
   "item.firstmod.raw_zbigniew": "Zbysiu Kluczkowski",
+  "block.firstmod.zbigniew_block": "Blok Zbigniewa",
+  "block.firstmod.raw_zbigniew_block":"Blok Zbysia",
+  "block.firstmod.zbigniew_ore": "Ruda Zbigniewa",
+  "block.firstmod.deepslate_zbigniew_ore": "Ruda Deepslate Zbigniewa",
+  "block.firstmod.nether_zbigniew_ore": "Ruda Nether Zbigniewa",
+  "block.firstmod.end_stone_zbigniew_ore": "Ruda End Zbigniewa",
   "creativetab.firstmod_tab": "Zbigniew"
 }

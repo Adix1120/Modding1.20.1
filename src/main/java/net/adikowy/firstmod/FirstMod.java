@@ -1,6 +1,7 @@
 package net.adikowy.firstmod;
 
 import com.mojang.logging.LogUtils;
+import net.adikowy.firstmod.block.ModBlocks;
 import net.adikowy.firstmod.item.ModCreativeModTabs;
 import net.adikowy.firstmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,7 +32,7 @@ public class FirstMod
         IEventBus modEventBus = context.getModEventBus();
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
