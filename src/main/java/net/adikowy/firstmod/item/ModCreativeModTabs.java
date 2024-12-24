@@ -30,6 +30,7 @@ public class ModCreativeModTabs
                         output.accept(ModBlocks.DEEPSLATE_ZBIGNIEW_ORE.get());
                         output.accept(ModBlocks.NETHER_ZBIGNIEW_ORE.get());
                         output.accept(ModBlocks.END_STONE_ZBIGNIEW_ORE.get());
+                        output.accept(ModItems.CEBULKA.get());
                     })
                     .build());
 

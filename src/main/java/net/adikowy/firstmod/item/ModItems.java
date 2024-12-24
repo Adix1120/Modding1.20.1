@@ -11,10 +11,14 @@ public class ModItems
 {
     public static final DeferredRegister<Item> ITEMS=
             DeferredRegister.create(ForgeRegistries.ITEMS, FirstMod.MOD_ID);
+
     public static final RegistryObject<Item> Zbigniew = ITEMS.register("zbigniew",() -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RAW_ZBIGNIEW=ITEMS.register("raw_zbigniew",
             ()-> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CEBULKA=ITEMS.register("cebulka",
+            ()-> new Item(new Item.Properties().food(ModFoods.CEBULKA)));
 
     public static void register(IEventBus eventBus)
     {
