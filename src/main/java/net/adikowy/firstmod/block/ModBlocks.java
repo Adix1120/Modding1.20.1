@@ -1,6 +1,7 @@
 package net.adikowy.firstmod.block;
 
 import net.adikowy.firstmod.FirstMod;
+import net.adikowy.firstmod.block.custom.ZbigniewBlock;
 import net.adikowy.firstmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -19,11 +20,15 @@ public class ModBlocks
     public static final DeferredRegister<Block> BLOCKS=
             DeferredRegister.create(ForgeRegistries.BLOCKS, FirstMod.MOD_ID);
 
-    public static final RegistryObject<Block> Block_Zbigniewa=registerBlock("zbigniew_block",
-            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK).sound(SoundType.ANVIL)));
+    public static final RegistryObject<Block> Block_Zbigniewa = registerBlock("zbigniew_block",
+            () -> new ZbigniewBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)
+                    .sound(SoundType.ANCIENT_DEBRIS), 15));
 
-    public static final RegistryObject<Block> RAW_Zgieniew_Block=registerBlock("raw_zbigniew_block",
-            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK).sound(SoundType.BONE_BLOCK)));
+    public static final RegistryObject<Block> RAW_Zgieniew_Block = registerBlock("raw_zbigniew_block",
+            () -> new ZbigniewBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)
+                    .sound(SoundType.BONE_BLOCK), 10));
+
+
 
     public static final RegistryObject<Block> ZBIGNIEW_ORE= registerBlock("zbigniew_ore",
             ()-> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2.5f)
