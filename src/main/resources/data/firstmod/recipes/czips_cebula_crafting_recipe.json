@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+  [
+    "BBB",
+    "G#G",
+    "BBB"
+  ],
+  "key":
+  {
+    "B":
+    {
+      "item": "minecraft:bread"
+    },
+    "G":
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    "#":
+    {
+      "item": "firstmod:zbigniew"
+    }
+  },
+  "result":
+  {
+    "item": "firstmod:czips_cebula",
+    "count": 8
+  }
+}

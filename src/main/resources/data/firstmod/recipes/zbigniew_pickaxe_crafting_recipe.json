@@ -4,18 +4,22 @@
   "pattern":
   [
     "###",
-    "# #",
-    "###"
+    " S ",
+    " S "
   ],
   "key":
   {
     "#":
     {
-      "item": "firstmod:cracked_zbysiu"
+      "item": "firstmod:zbigniew_block"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
     }
   },
   "result":
   {
-    "item": "firstmod:raw_zbigniew"
+    "item": "firstmod:zbigniew_pickaxe"
   }
 }

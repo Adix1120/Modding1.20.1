@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+  [
+    " ##",
+    " S#",
+    " S "
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "firstmod:zbigniew_block"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "firstmod:zbigniew_axe"
+  }
+}

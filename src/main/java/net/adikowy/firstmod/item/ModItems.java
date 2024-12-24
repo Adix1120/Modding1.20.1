@@ -21,6 +21,9 @@ public class ModItems
     public static final RegistryObject<Item> CEBULKA=ITEMS.register("cebulka",
             ()-> new Item(new Item.Properties().food(ModFoods.CEBULKA)));
 
+    public static final RegistryObject<Item> CZIPS_CEBULA=ITEMS.register("czips_cebula",
+            ()-> new Item(new Item.Properties().food(ModFoods.CZIPS_CEBULA)));
+
     public static final RegistryObject<Item> CRACKED_ZBYSIU=ITEMS.register("cracked_zbysiu",
             ()-> new FuelItem(new Item.Properties(),200));
 

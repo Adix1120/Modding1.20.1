@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 9,
+  "count": 8,
   "ingredient": {
     "item": "firstmod:raw_zbigniew"
   },

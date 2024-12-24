@@ -31,6 +31,7 @@ public class ModCreativeModTabs
                         output.accept(ModBlocks.NETHER_ZBIGNIEW_ORE.get());
                         output.accept(ModBlocks.END_STONE_ZBIGNIEW_ORE.get());
                         output.accept(ModItems.CEBULKA.get());
+                        output.accept(ModItems.CZIPS_CEBULA.get());
                         output.accept(ModItems.CRACKED_ZBYSIU.get());
                         output.accept(ModItems.ZBIGNIEW_SWORD.get());
                         output.accept(ModItems.ZBIGNIEW_PICKAXE.get());
