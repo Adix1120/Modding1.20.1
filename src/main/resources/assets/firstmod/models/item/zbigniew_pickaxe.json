@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures":
+  {
+    "layer0": "firstmod:item/zbigniew_pickaxe"
+  }
+}

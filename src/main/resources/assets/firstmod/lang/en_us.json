@@ -7,6 +7,12 @@
   "block.firstmod.deepslate_zbigniew_ore": "Ruda Deepslate Zbigniewa",
   "block.firstmod.nether_zbigniew_ore": "Ruda Nether Zbigniewa",
   "block.firstmod.end_stone_zbigniew_ore": "Ruda End Zbigniewa",
-  "item.firstmod.cebulka": "Cebulka",
+  "item.firstmod.cebulka": "Cebulowe Ringsy",
+  "item.firstmod.cracked_zbigniew": "Ułamany Zbigniew",
+  "item.firstmod.zbigniew_sword": "Miecz Zbigniewa",
+  "item.firstmod.zbigniew_pickaxe": "Kilof Zbigniewa",
+  "item.firstmod.zbigniew_axe": "Siekiera Zbigniewa",
+  "item.firstmod.zbigniew_shovel": "Łopata Zbigniewa",
+  "item.firstmod.zbigniew_hoe": "Motyka Zbigniewa",
   "creativetab.firstmod_tab": "Zbigniew"
 }

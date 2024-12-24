@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+  [
+    "WGB",
+    "P#C",
+    "ARM"
+  ],
+  "key":
+  {
+    "W":
+    {
+      "item": "minecraft:wheat"
+    },
+    "B":
+    {
+      "item": "minecraft:beetroot"
+    },
+    "G":
+    {
+      "item": "minecraft:golden_apple"
+    },
+    "P":
+    {
+      "item": "minecraft:porkchop"
+    },
+    "C":
+    {
+      "item": "minecraft:cooked_salmon"
+    },
+    "A":
+    {
+      "item": "minecraft:carrot"
+    },
+    "R":
+    {
+      "item": "minecraft:bread"
+    },
+    "M":
+    {
+      "item": "minecraft:melon_slice"
+    },
+    "#":
+    {
+      "item": "firstmod:zbigniew"
+    }
+  },
+  "result":
+  {
+    "item": "firstmod:cebulka",
+    "count": 32
+  }
+}
