@@ -42,6 +42,18 @@ public class ModItems
     public static final RegistryObject<Item> ZBIGNIEW_HOE=ITEMS.register("zbigniew_hoe",
             ()-> new HoeItem(ModToolTiers.ZBIGNIEW,0,-1,new Item.Properties()));
 
+    public static final RegistryObject<Item> ZBIGNIEW_HELMET=ITEMS.register("zbigniew_helmet",
+            ()-> new ArmorItem(ModArmorMaterials.ZBIGNIEW, ArmorItem.Type.HELMET,new Item.Properties()));
+
+    public static final RegistryObject<Item> ZBIGNIEW_CHESTPLATE=ITEMS.register("zbigniew_chestplate",
+            ()-> new ArmorItem(ModArmorMaterials.ZBIGNIEW, ArmorItem.Type.CHESTPLATE,new Item.Properties()));
+
+    public static final RegistryObject<Item> ZBIGNIEW_LEGGINGS=ITEMS.register("zbigniew_leggings",
+            ()-> new ArmorItem(ModArmorMaterials.ZBIGNIEW, ArmorItem.Type.LEGGINGS,new Item.Properties()));
+
+    public static final RegistryObject<Item> ZBIGNIEW_BOOTS=ITEMS.register("zbigniew_boots",
+            ()-> new ArmorItem(ModArmorMaterials.ZBIGNIEW, ArmorItem.Type.BOOTS,new Item.Properties()));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

@@ -38,7 +38,10 @@ public class ModCreativeModTabs
                         output.accept(ModItems.ZBIGNIEW_AXE.get());
                         output.accept(ModItems.ZBIGNIEW_SHOVEL.get());
                         output.accept(ModItems.ZBIGNIEW_HOE.get());
-
+                        output.accept(ModItems.ZBIGNIEW_HELMET.get());
+                        output.accept(ModItems.ZBIGNIEW_CHESTPLATE.get());
+                        output.accept(ModItems.ZBIGNIEW_LEGGINGS.get());
+                        output.accept(ModItems.ZBIGNIEW_BOOTS.get());
                     })
                     .build());
 
