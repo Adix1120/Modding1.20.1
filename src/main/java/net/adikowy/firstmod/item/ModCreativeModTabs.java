@@ -33,6 +33,7 @@ public class ModCreativeModTabs
                         output.accept(ModItems.CEBULKA.get());
                         output.accept(ModItems.CZIPS_CEBULA.get());
                         output.accept(ModItems.CRACKED_ZBYSIU.get());
+                        output.accept(ModItems.IRON_ROD.get());
                         output.accept(ModItems.ZBIGNIEW_SWORD.get());
                         output.accept(ModItems.ZBIGNIEW_PICKAXE.get());
                         output.accept(ModItems.ZBIGNIEW_AXE.get());

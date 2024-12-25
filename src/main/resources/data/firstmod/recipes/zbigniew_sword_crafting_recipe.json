@@ -5,7 +5,7 @@
   [
     " # ",
     " # ",
-    " S "
+    " I "
   ],
   "key":
   {
@@ -13,9 +13,9 @@
     {
       "item": "firstmod:zbigniew_block"
     },
-    "S":
+    "I":
     {
-      "item": "minecraft:stick"
+      "item": "firstmod:iron_rod"
     }
   },
   "result":
