@@ -2,6 +2,7 @@ package net.adikowy.firstmod.item;
 
 import net.adikowy.firstmod.FirstMod;
 import net.adikowy.firstmod.item.custom.FuelItem;
+import net.adikowy.firstmod.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -43,7 +44,7 @@ public class ModItems
             ()-> new HoeItem(ModToolTiers.ZBIGNIEW,0,-1,new Item.Properties()));
 
     public static final RegistryObject<Item> ZBIGNIEW_HELMET=ITEMS.register("zbigniew_helmet",
-            ()-> new ArmorItem(ModArmorMaterials.ZBIGNIEW, ArmorItem.Type.HELMET,new Item.Properties()));
+            ()-> new ModArmorItem(ModArmorMaterials.ZBIGNIEW, ArmorItem.Type.HELMET,new Item.Properties()));
 
     public static final RegistryObject<Item> ZBIGNIEW_CHESTPLATE=ITEMS.register("zbigniew_chestplate",
             ()-> new ArmorItem(ModArmorMaterials.ZBIGNIEW, ArmorItem.Type.CHESTPLATE,new Item.Properties()));
@@ -56,6 +57,7 @@ public class ModItems
 
     public static final RegistryObject<Item> IRON_ROD=ITEMS.register("iron_rod",
             ()-> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus)
     {
